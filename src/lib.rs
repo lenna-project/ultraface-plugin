@@ -182,13 +182,19 @@ mod tests {
     #[cfg(target_arch = "wasm32")]
     mod wasm {
         use super::*;
+        use lenna_core::LennaImage;
         use wasm_bindgen_test::*;
 
         #[wasm_bindgen_test]
         fn default() {
-            let ultraface = UltraFace::default();
-
+            let mut ultraface = UltraFace::default();
+            let config = ProcessorConfig {
+                id: "ultraface".into(),
+                config: ultraface.default_config(),
+            };
             assert_eq!(ultraface.name(), "ultraface");
+            let mut img = Box::new(LennaImage::default());
+            ultraface.process(config, &mut img).unwrap();
         }
     }
 }
