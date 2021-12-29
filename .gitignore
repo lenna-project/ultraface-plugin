@@ -17,4 +17,7 @@ Cargo.lock
 /target
 #Cargo.lock
 
+/dist
+/node_modules/
+
 /assets/test.jpg

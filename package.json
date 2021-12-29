@@ -1,0 +1,36 @@
+{
+  "name": "@lenna-project/ultraface",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-cli serve",
+    "serve": "serve dist -p 3002",
+    "build": "webpack --mode production --env prod=true",
+    "clean": "rm -rf dist"
+  },
+  "config": {
+    "shortname": "ultraface",
+    "publicPath": "https://lenna.app/ultraface-plugin/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "serve": "^13.0.2",
+    "vue": "^3.0.11"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^16.2.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
