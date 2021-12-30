@@ -7,7 +7,7 @@ define("ultraface", [], () => { return /******/ (() => { // webpackBootstrap
 
 var moduleMap = {
 	"default": () => {
-		return __webpack_require__.e(138).then(() => (() => ((__webpack_require__(138)))));
+		return __webpack_require__.e(328).then(() => (() => ((__webpack_require__(138)))));
 	}
 };
 var get = (module, getScope) => {
@@ -348,31 +348,31 @@ __webpack_require__.d(exports, {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			112: function() {
+/******/ 			503: function() {
 /******/ 				return {
-/******/ 					"./ultraface_plugin_bg.js": {
+/******/ 					"./lenna_ultraface_plugin_bg.js": {
+/******/ 						"__wbindgen_object_drop_ref": function(p0i32) {
+/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[209].exports;
+/******/ 							return wasmImportedFuncCache0["ug"](p0i32);
+/******/ 						},
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[883].exports;
-/******/ 							return wasmImportedFuncCache0["t$"](p0i32,p1i32);
+/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[209].exports;
+/******/ 							return wasmImportedFuncCache1["t$"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_json_serialize": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[883].exports;
-/******/ 							return wasmImportedFuncCache1["r1"](p0i32,p1i32);
-/******/ 						},
-/******/ 						"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[883].exports;
-/******/ 							return wasmImportedFuncCache2["ug"](p0i32);
+/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[209].exports;
+/******/ 							return wasmImportedFuncCache2["r1"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_new_693216e109162396": function() {
-/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[883].exports;
+/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[209].exports;
 /******/ 							return wasmImportedFuncCache3["Ih"]();
 /******/ 						},
 /******/ 						"__wbg_stack_0ddaca5d1abfb52f": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[883].exports;
+/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[209].exports;
 /******/ 							return wasmImportedFuncCache4["yq"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_error_09919627ac0992f5": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[883].exports;
+/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[209].exports;
 /******/ 							return wasmImportedFuncCache5["gk"](p0i32,p1i32);
 /******/ 						}
 /******/ 					}
@@ -381,8 +381,8 @@ __webpack_require__.d(exports, {
 /******/ 		};
 /******/ 		
 /******/ 		var wasmModuleMap = {
-/******/ 			"976": [
-/******/ 				112
+/******/ 			"138": [
+/******/ 				503
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -402,7 +402,7 @@ __webpack_require__.d(exports, {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"976":{"112":"e0f9bf00bd41ef44a0f9"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"138":{"503":"0edbca2b912088744e2f"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
