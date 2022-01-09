@@ -1,7 +1,7 @@
 {
   "name": "@lenna-project/ultraface",
   "version": "0.1.0",
-  "description": "",
+  "description": "Plugin to detect faces in images.",
   "scripts": {
     "start": "webpack-cli serve",
     "serve": "serve dist -p 3002",

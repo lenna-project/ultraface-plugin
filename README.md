@@ -2,6 +2,8 @@
 Face Detection in images.
 Based on [ultraface](https://github.com/onnx/models/tree/master/vision/body_analysis/ultraface) model.
 
+Test it on [lenna.app](https://lenna.app/?just=https://lenna.app/ultraface-plugin/remoteEntry.js).
+
 ## rust version
 
 The plugin is nativaly developed in rust programming language.
